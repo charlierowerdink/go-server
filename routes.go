@@ -27,7 +27,7 @@ var routes = Routes{
     Route{
         "DataShow",
         "GET",
-        "/database/{bookTitle}",
+        "/database/{queryString}",
         DataShow,
     },
     Route{
